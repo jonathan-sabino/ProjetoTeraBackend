@@ -1,0 +1,37 @@
+{
+	"name": "projeto-tera-backend",
+	"version": "1.0.0",
+	"description": "E-commerce API para o projeto de conclusão do curso da Tera",
+	"main": "server.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "node server.js",
+		"dev": "nodemon -r dotenv-safe/config server.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/jonathan-sabino/ProjetoTeraBackend.git"
+	},
+	"keywords": [
+		"api",
+		"e-commerce",
+		"tera"
+	],
+	"author": "Jonathan Sabino Miranda",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/jonathan-sabino/ProjetoTeraBackend/issues"
+	},
+	"homepage": "https://github.com/jonathan-sabino/ProjetoTeraBackend#readme",
+	"dependencies": {
+		"bcrypt": "^5.1.1",
+		"cors": "^2.8.5",
+		"express": "^4.18.2",
+		"jsonwebtoken": "^9.0.2",
+		"mongoose": "^8.0.3"
+	},
+	"devDependencies": {
+		"dotenv-safe": "^8.2.0",
+		"nodemon": "^3.0.2"
+	}
+}
